@@ -36,10 +36,10 @@ console.log("Welcome to non-primitive datatype");
 //Object
 console.log("DT Object");
 var person = {
-    name : "John"
+    name : "John" , 
     age  : 30   
 };
-console.log(person.age);
+console.log(person);
 
 //Arrays
 console.log("DT Arrays");
