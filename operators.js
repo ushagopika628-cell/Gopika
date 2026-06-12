@@ -42,4 +42,12 @@ console.log(a>b);
 console.log(a<=b);
 console.log(a>=b);
 
+//logical 
+console.log("Logical operators");
+console.log(a>0 && b>0);
+console.log(a>0 && b<0);
+console.log(a<0 || b<0);
+console.log(a>0 || b<0);
+console.log(!(a>0));
+
 
