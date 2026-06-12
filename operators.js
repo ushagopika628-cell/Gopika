@@ -1,4 +1,5 @@
 //Arithmatic
+console.log("Arithmetic operators");
 var a = 20;
 var b = 10;
 console.log(a+b)//addition
@@ -24,11 +25,21 @@ var b = 10;
 console.log(a**b)//Expotation 
 
 //Assignment 
+console.log("Assignmen operators");
 var c = 30;
 console.log(c+=10)
 console.log(c-=10)
 console.log(c*=10)
 console.log(c/=10)
 console.log(c%=10)
+
+//comparision
+console.log("Comparision operators");
+console.log(a==b);
+console.log(a!=b);
+console.log(a<b);
+console.log(a>b);
+console.log(a<=b);
+console.log(a>=b);
 
 
