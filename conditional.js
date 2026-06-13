@@ -28,8 +28,10 @@ switch(signal){
  
     case "red":
       console.log("Stop!");
-      break;
+      break; 
 
     default:
          console.log("Invalid signal color");
-}
+}  
+
+
