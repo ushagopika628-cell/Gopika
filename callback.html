@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>Callback Example</h2>
+
+        <script>
+
+            function fetchstudent(Callback){
+
+                console.log("Fetching Student Data...");
+
+                setTimeout(function(){
+
+                    let student = "Arun";
+
+                    callback(student);
+                },3000);
+            }
+
+            function displaystudent(student){
+
+                console.log("Student Name:",student);
+            }
+
+            fetchstudent(displaystudent);
+        </script>
+    </body>
+</html>
